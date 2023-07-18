@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BatteryCure">
+        <activity android:name=".Settings"
+            android:parentActivityName=".MainActivity"
+            >
 
         </activity>
         <activity android:name=".MainActivity">
@@ -20,6 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".MyService"/>
 
     </application>
 
